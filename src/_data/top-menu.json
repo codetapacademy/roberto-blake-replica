@@ -1,0 +1,62 @@
+[
+  {
+    "href": "http://robertoblake.com/",
+    "text": "",
+    "target": ""
+  },
+  {
+    "href": "http://robertoblake.com/about.php",
+    "text": "My Story",
+    "target": ""
+  },
+  {
+    "href": "http://robertoblake.com/speaker.php",
+    "text": "Speaking",
+    "target": ""
+  },
+  {
+    "href": "http://robertoblake.com/training.php",
+    "text": "Consulting",
+    "target": ""
+  },
+  {
+    "href": "http://justcreateawesome.com/",
+    "text": "Articles",
+    "target": "_blank"
+  },
+  {
+    "href": "http://robertoblake.com/#",
+    "text": "Media",
+    "target": ""
+  },
+  {
+    "href": "http://robertoblake.com/pdf/RobertoBlake-Speaker.pdf",
+    "text": "Speaker Sheet [PDF]",
+    "target": "_blank"
+  },
+  {
+    "href": "https://www.youtube.com/watch?v=14xWRBRtIh8&list=PLvUg-IRiErnOz5AfCamIX3JGeCTWNhmND",
+    "text": "Speaker Reel [YOUTUBE]",
+    "target": ""
+  },
+  {
+    "href": "http://youtube.com/robertoblake2",
+    "text": "YouTube Channel",
+    "target": "_blank"
+  },
+  {
+    "href": "http://robertoblake.com/itunes",
+    "text": "CSAT Podcast",
+    "target": "_blank"
+  },
+  {
+    "href": "http://robertoblake.com/press.php",
+    "text": "Press",
+    "target": ""
+  },
+  {
+    "href": "http://robertoblake.com/contact.php",
+    "text": "Contact",
+    "target": ""
+  }
+]
