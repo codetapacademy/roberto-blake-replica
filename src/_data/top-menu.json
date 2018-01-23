@@ -1,20 +1,20 @@
 [{
-    "href": "http://robertoblake.com/",
+    "href": "/",
     "text": "",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/about.php",
+    "href": "/about.php",
     "text": "My Story",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/speaker.php",
+    "href": "/speaker.php",
     "text": "Speaking",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/training.php",
+    "href": "/training.php",
     "text": "Consulting",
     "target": ""
   },
@@ -24,12 +24,12 @@
     "target": "_blank"
   },
   {
-    "href": "http://robertoblake.com/#",
+    "href": "/#",
     "text": "Media",
     "target": "",
     "type": "dropdown",
     "children": [{
-        "href": "http://robertoblake.com/pdf/RobertoBlake-Speaker.pdf",
+        "href": "/pdf/RobertoBlake-Speaker.pdf",
         "text": "Speaker Sheet [PDF]",
         "target": "_blank"
       },
@@ -44,19 +44,19 @@
         "target": "_blank"
       },
       {
-        "href": "http://robertoblake.com/itunes",
+        "href": "/itunes",
         "text": "CSAT Podcast",
         "target": "_blank"
       }
     ]
   },
   {
-    "href": "http://robertoblake.com/press.php",
+    "href": "/press.php",
     "text": "Press",
     "target": ""
   },
   {
-    "href": "http://robertoblake.com/contact.php",
+    "href": "/contact.php",
     "text": "Contact",
     "target": ""
   }
