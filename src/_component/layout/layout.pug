@@ -13,10 +13,8 @@ html
             rel="canonical", 
             href="http://robertoblake.com/"
         )
-        link(
-            rel="stylesheet", 
-            href="/style.css"
-        )
+        if config.entry.css.inline
+            link(rel="stylesheet", href=`${inlinePath}`, inline)
     body
         include ../header/header
         .content
@@ -25,3 +23,7 @@ html
         include ../featured/featured
         .footer
             include ../footer/footer
+link(
+    rel="stylesheet", 
+    href="/style.css"
+)
