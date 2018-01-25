@@ -148,15 +148,3 @@
     background-image: url('/asset/image/robertoblake2016-marketing-header.jpg');
     @extend %header__body;
 }
-
-.header__download {
-    border: 0.1rem solid $color-fuel-yellow;
-    background-color: $color-sandy-brown;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: normal;
-    color: $color-white;
-    border-radius: 0.5rem;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-}
