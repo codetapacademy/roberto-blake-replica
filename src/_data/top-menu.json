@@ -4,17 +4,17 @@
     "target": ""
   },
   {
-    "href": "/about.php",
+    "href": "/about",
     "text": "My Story",
     "target": ""
   },
   {
-    "href": "/speaker.php",
+    "href": "/speaker",
     "text": "Speaking",
     "target": ""
   },
   {
-    "href": "/training.php",
+    "href": "/training",
     "text": "Consulting",
     "target": ""
   },
@@ -51,12 +51,12 @@
     ]
   },
   {
-    "href": "/press.php",
+    "href": "/press",
     "text": "Press",
     "target": ""
   },
   {
-    "href": "/contact.php",
+    "href": "/contact",
     "text": "Contact",
     "target": ""
   }
