@@ -21,4 +21,18 @@
         padding: 1rem;
         text-align: justify;
     }
+
+    .landing__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-side {
+        width: 65%;
+    }
+
+    .side-bar {
+        width: 35%;
+        padding: 1rem;
+    }
 }

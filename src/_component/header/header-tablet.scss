@@ -28,4 +28,9 @@
         left: 0;
         background-color: $color-mine-shaft;
     }
+
+    .header__menu-link,
+    .header__menu-sub-link {
+        padding: 0.75rem 1.2rem;
+    }
 }
