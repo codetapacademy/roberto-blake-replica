@@ -1,0 +1,55 @@
+extends ../_component/layout/layout
+block awesome-config
+    -
+        let title = `Roberto Blake: Press, Interviews and Features`
+        let description = `Roberto Blake has been featured in publications such as Forbes.com, Advanced Photoshop and Photoshop Creative Magazine.`
+block awesome-content
+    include ../_component/mixin/link
+    .header__wrapper
+        h1 Roberto Blake: Press, Interviews and Features
+        .header__panel
+            .header__body--press
+    .landing__content
+        .content-side
+            h2 Highlighted Features
+            ul
+                li
+                    | Forbes -
+                    a(href='http://www.forbes.com/sites/markfidelman/2016/09/06/20-must-watch-youtube-channels-that-will-change-your-business/#16c2b02669d9') 20 Must Watch YouTube Channels That Will Change Your Business
+                li
+                    | Forbes -
+                    a(href='http://www.forbes.com/sites/ashleystahl/2017/01/17/7-high-profile-entrepreneurs-tell-us-how-they-got-their-first-job/#6bd3d58f6429') 7 High-Profile Entrepreneurs Tell Us How They Got Their First Job
+                li
+                    | Forbes -
+                    a(href='http://www.forbes.com/sites/under30network/2016/02/03/5-tips-for-millennials-trying-to-break-the-age-barrier/#5364074b7ae7') 5 Tips For Millennials Trying To Break The Age Barrier
+                li
+                    | Forbes -
+                    a(href='http://www.forbes.com/sites/jaredkleinert/2015/11/08/how-to-grow-a-following-on-youtube-from-an-entrepreneur-who-tripled-his-subscribers-in-2015/#3ee356195700') How To Grow A Following On YouTube 
+                li
+                    | Huffington Post -
+                    a(href='http://www.huffingtonpost.com/tayo-rockson/disrupting-creative-servi_b_9154918.html') Disrupting Creative Services for Good With Roberto Blake
+                li
+                    | Adobe -
+                    a(href='https://blogs.adobe.com/creativecloud/creating-for-creatives/') Creating for Creatives
+                li
+                    | Adobe -
+                    a(href='https://blogs.adobe.com/creativecloud/adobe-comp-cc-design-with-roberto-blake-and-ipad/') Solve Common Design Challenges with Roberto Blake, Amtrak, and an iPad
+                li
+                    | Blueline Magazine by Domtar -
+                    a(href='http://domtarblueline.com/2016/11/adobe-max-wrap-community-inspires-creativity/') Adobe MAX Wrap-up: Community Inspires Creativity
+            h2 Roberto Blake | Keynote Speaker Reel
+            .youtube-video-16-by-9
+                iframe(
+                    width="100%" 
+                    height="100%" 
+                    data-src="https://www.youtube.com/embed/14xWRBRtIh8" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen
+                )
+            h2 Roberto Blake Interviews & Features
+            p During his career Roberto Blake has been interviewed by influencers like Chelsea Krost, Carlos Gil, Amy Schmittauer and Tayo Rockson, as well as featured in several publications including Forbes, Advanced Photoshop and Photoshop Creative Magazine.
+            p If you'd like to schedule an interview with Roberto please reach out via email rblake@robertoblake.com or check his #[+link('https://calendly.com/robertoblake/30min', 'availability for a 30 minute interview', 'availability for a 30 minute interview')] or a #[+link('https://calendly.com/robertoblake/60min', '60 minute interview', '60 minute interview')] and set an appointment. Interviews are typically 30 minutes but 60 minute interviews are available.
+
+        .side-bar
+        .content
