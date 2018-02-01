@@ -23,7 +23,7 @@ const watch = ({
 
       // Pug templates
       gulp.watch([
-        path.join(dir.source, '**/*.pug'),
+        path.join(dir.source, '**/*.{pug,js}'),
         path.join(dir.source, dir.data, '**/*.json')
       ], gulp.series('pug'));
 
@@ -42,6 +42,11 @@ const watch = ({
         path.join(dir.source, '**/*.{scss,sass}'),
         path.join(dir.source, dir.component, '**/*.{scss,sass}')
       ], gulp.series('sass'));
+
+      // JavaScript
+      gulp.watch([
+        path.join(dir.source, '**/*.{js}'),
+      ], gulp.series('copy'));
 
       // Font files
       gulp.watch(path.join(
