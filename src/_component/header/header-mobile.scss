@@ -159,3 +159,8 @@
     background-image: url('/asset/image/robertoblake2016-press-header-2.jpg');
     @extend %header__body;
 }
+
+.header__body--contact {
+    background-image: url('/asset/image/robertoblake2016-header-contact.jpg');
+    @extend %header__body;
+}
